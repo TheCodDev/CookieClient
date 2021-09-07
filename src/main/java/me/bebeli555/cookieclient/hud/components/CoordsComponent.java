@@ -17,7 +17,7 @@ public class CoordsComponent extends HudComponent {
 			amount = 14;
 		}
 		
-		String text = g + "XYZ (" + w + decimal(mc.renderViewEntity.posX, 1) + g + ", " + w + decimal(mc.renderViewEntity.posY, 1) + g + ", " + w + decimal(mc.renderViewEntity.posZ, 1) + " ";
+		String text = g + "XYZ (" + w + decimal(mc.renderViewEntity.posX, 1) + g + ", " + w + decimal(mc.renderViewEntity.posY, 1) + g + ", " + w + decimal(mc.renderViewEntity.posZ, 1) + g + ") ";
 		if (GuiSettings.netherCoords.booleanValue()) {
 			if (mc.player.dimension == 0) {
 				text += g + "[" + w + decimal(mc.renderViewEntity.posX / 8, 1) + g + ", " + w + decimal(mc.renderViewEntity.posZ / 8, 1) + g + "]";
