@@ -22,14 +22,14 @@ public class DirectionComponent extends HudComponent {
 		}
 		
 		EnumFacing dir = mc.renderViewEntity.getHorizontalFacing();
-		String text = w + "North " + g + "[" + w + "-Z" + g + "]";
+		String text = w + "NORTH " + g + "[" + w + "-Z" + g + "]";
 		
 		if (dir == EnumFacing.EAST) {
-			text = w + "East " + g + "[" + w + "+X" + g + "]";
+			text = w + "EAST " + g + "[" + w + "+X" + g + "]";
 		} else if (dir == EnumFacing.SOUTH) {
-			text = w + "South " + g + "[" + w + "+Z" + g + "]";
+			text = w + "SOUTH " + g + "[" + w + "+Z" + g + "]";
 		} else if (dir == EnumFacing.WEST) {
-			text = w + "West " + g + "[" + w + "-X" + g + "]";
+			text = w + "WEST " + g + "[" + w + "-X" + g + "]";
 		}
 		
 		drawString(text, 0, -amount, 0xFF000000, true);
