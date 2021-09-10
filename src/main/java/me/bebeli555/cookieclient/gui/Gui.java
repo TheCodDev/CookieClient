@@ -118,9 +118,9 @@ public class Gui extends GuiScreen {
 			drawRect(0, 43, infoWidth, 44, 0x99d303fc);
 			drawRect(infoWidth, 0, infoWidth + 1, 44, 0x99d303fc);
 			drawStringWithShadow(ChatFormatting.RED + Mod.NAME + ChatFormatting.GREEN + " v" + Mod.VERSION, 2, 2, 0xFF000000);
-			drawStringWithShadow(ChatFormatting.RED + "Made by: " + ChatFormatting.GREEN + "bebeli555", 2, 12, 0xFF000000);
+			drawStringWithShadow(ChatFormatting.RED + "Made by: " + ChatFormatting.GREEN + "HausemasterIssue and bebeli555", 2, 12, 0xFF000000);
 			drawStringWithShadow(ChatFormatting.RED + "Discord: " + ChatFormatting.GREEN + Mod.DISCORD, 2, 22, 0xFF000000);
-			drawStringWithShadow(ChatFormatting.RED + "Github: " + ChatFormatting.GREEN + "bebeli555/CookieClient", 2, 32, 0xFF000000);
+			drawStringWithShadow(ChatFormatting.RED + "Github: " + ChatFormatting.GREEN + "bigrat.monster", 2, 32, 0xFF000000);
 			renderList.add(() -> GlStateManager.popMatrix());
 		}
 		
