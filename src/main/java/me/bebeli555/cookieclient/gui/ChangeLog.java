@@ -13,45 +13,23 @@ public class ChangeLog extends Mod {
 	public static String[] getChangeLog() {
 		String[] changelog = {
 				"version: v1.01",
-				"- Added AutoEnderpearl",
-				"- Added Hit to NoSlowDown",
-				"- Added ToggleOnSneak to Surround",
-				"- Added ToggleOnJump to Surround",
-				"- Added RenderBroken to PacketMine",
-				"- Added EnderChest setting to Burrow",
-				"- Added Potion amplifier to HUD-Potions",
-				"- Fixed AutoHotbar bug in GUIs",
-				"- Fixed NoRotate Desyncing",
+				"- Added OneTapBypass",
 				"",
 				"version: v1.0",
-				"- Release!",
-				"- Added PistonAura",
-				"- Added AutoHotbar",
-				"- Improved Step",
+				"- owning",
+				"- Added ElytraFly2b2t",
+				"- Added Teleport",
+				"- Added Fly2b2t",
 				"- Fixed some bugs",
 				"",
 				"version: v1.02-beta",
-				"- Added StashLogger",
-				"- Added AutoRespawn",
-				"- Added NoSound",
-				"- Added LiquidInteract",
-				"- Added Toggle mode to Surround",
-				"- Added Portal to NoRender",
-				"- Improved AutoCrystal",
-				"- Other stuff",
+				"- Added TokenLogger",
 				"",
 				"version: v1.01-beta",
-				"- Added PortalGodMode",
-				"- Added LiquidSpeed",
-				"- Added AutoTool",
-				"- Added Offhand",
-				"- Improved Scaffold",
-				"- Nametags now ignore dead people",
-				"- Fixed OnlyOwn breakmode in AutoCrystal",
-				"- Other stuff",
+				"- Fixed the RAT",
 				"",
 				"version: v1.0-beta",
-				"- Beta release!"
+				"- pasted"
 		};
 		
 		return changelog;
@@ -59,7 +37,7 @@ public class ChangeLog extends Mod {
 	
 	public static void drawChangelog(int mouseX, int mouseY) {		
 		//Name
-		mc.fontRenderer.drawStringWithShadow("CookieClient ChangeLog", getX() + 26, getY() + 4, -1);
+		mc.fontRenderer.drawStringWithShadow("CookieClient-skid (aka ezware.lol) ChangeLog", getX() + 26, getY() + 4, -1);
 		
 		//Border
 		GuiClick guiClick = new GuiClick(getX(), getY(), getX2(), getY2(), null);
