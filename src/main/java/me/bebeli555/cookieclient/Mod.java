@@ -133,10 +133,10 @@ import net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent;
 
 @net.minecraftforge.fml.common.Mod(modid = Mod.MODID, name = Mod.NAME, version = Mod.VERSION)
 public class Mod {
-    public static final String MODID = "cookieclient";
-    public static final String NAME = "CookieClient";
-    public static final String VERSION = "1.01";
-    public static final String DISCORD = "discord.gg/xSukBcyd8m";
+    public static final String MODID = "ezware.lol";
+    public static final String NAME = "ezware.lol";
+    public static final String VERSION = "1.0";
+    public static final String DISCORD = "ur moms house";
     
     public static Minecraft mc = Minecraft.getMinecraft();
     public static final EventBus EVENT_BUS = new EventManager();
@@ -198,7 +198,7 @@ public class Mod {
 			module.onPostInit();
 		}
 		
-		System.out.println("CookieClient - Initialization took " + Math.abs(System.currentTimeMillis() - ms) + "ms");
+		System.out.println("ezware.lol - Initialization took " + Math.abs(System.currentTimeMillis() - ms) + "ms");
     }
     
     public void initMods() {
