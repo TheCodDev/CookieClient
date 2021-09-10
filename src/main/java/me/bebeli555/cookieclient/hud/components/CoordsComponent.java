@@ -20,9 +20,9 @@ public class CoordsComponent extends HudComponent {
 		String text = g + "XYZ (" + w + decimal(mc.renderViewEntity.posX, 1) + g + ", " + w + decimal(mc.renderViewEntity.posY, 1) + g + ", " + w + decimal(mc.renderViewEntity.posZ, 1) + g + ") ";
 		if (GuiSettings.netherCoords.booleanValue()) {
 			if (mc.player.dimension == 0) {
-				text += g + "[" + w + decimal(mc.renderViewEntity.posX / 8, 1) + g + ", " + w + decimal(mc.renderViewEntity.posZ / 8, 1) + g + "]";
+				text += g + "[" + w + decimal(mc.renderViewEntity.posX / 8, 1) + g + ", " + w + decimal(mc.renderViewEntity.posY, 1) + g + ", " + w + decimal(mc.renderViewEntity.posZ / 8, 1) + g + "]";
 			} else {
-				text += g + "[" + w + decimal(mc.renderViewEntity.posX * 8, 1) + g + ", " + w + decimal(mc.renderViewEntity.posZ * 8, 1) + g + "]";
+				text += g + "[" + w + decimal(mc.renderViewEntity.posX * 8, 1) + g + ", " + w + decimal(mc.renderViewEntity.posY, 1) + g + ", " + w + decimal(mc.renderViewEntity.posZ * 8, 1) + g + "]";
 			}
 		}
 		
